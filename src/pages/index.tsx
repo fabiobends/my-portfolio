@@ -53,7 +53,7 @@ export default function Home() {
                   alt="SIGAA 2.0"
                 />
                 <p>
-                  This is div case study where I redesign the digital academic
+                  This is case study where I redesign the digital academic
                   system of the Federal University of Piauí (Brazil). UX applied
                   to Education!
                 </p>
@@ -84,7 +84,7 @@ export default function Home() {
             <p>
               As div developer I know the most modern concepts and also how to
               help your team to accomplish great results with web and mobile
-              apps (including native ones).
+              apps.
             </p>
           </div>
         </div>
