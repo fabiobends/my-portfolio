@@ -1,0 +1,84 @@
+.servicesPageContainer {
+  padding: 10rem;
+  display: grid;
+  place-items: center;
+}
+
+.servicesPage {
+  margin-top: 15rem;
+}
+
+.serviceContainer {
+  height: 70rem;
+}
+
+.servicesPage .serviceContainer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  transition: 0.2s all ease-in;
+  margin: 2rem;
+}
+
+.servicesPage .serviceContainer div:hover {
+  padding: 1rem;
+  box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.03),
+    -2px 2px 2px 4px rgba(0, 0, 0, 0.03);
+}
+
+.servicesPage .serviceContainer div p {
+  font-size: 3rem;
+  width: 90rem;
+  padding: 10rem;
+}
+
+.servicesPage .serviceContainer div img {
+  width: 50rem;
+  padding: 1rem 0;
+}
+
+@media (min-width: 600px) {
+  .servicesPage div:nth-child(even) {
+    justify-content: flex-end;
+  }
+
+  .servicesPage div:nth-child(even) img {
+    order: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .servicesPageContainer {
+    padding: 10rem 0;
+  }
+
+  .servicesPageContainer h1 {
+    width: 60rem;
+    text-align: center;
+  }
+
+  .serviceContainer {
+    height: 90rem;
+  }
+
+  .servicesPage div {
+    margin: 8rem 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .servicesPage .serviceContainer div p {
+    font-size: 3rem;
+    width: 70vw;
+    padding: 3rem;
+  }
+
+  .servicesPage .serviceContainer div img {
+    width: 70vw;
+    padding: 3rem 3rem 0 3rem;
+  }
+
+}

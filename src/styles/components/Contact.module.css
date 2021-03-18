@@ -1,0 +1,42 @@
+.contactContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.contactContainer {
+  margin-top: 10rem;
+}
+
+.contacts {
+  padding: 10rem 0;
+}
+
+.contacts a {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0 5rem 0;
+}
+
+.contacts a i {
+  font-size: 5rem;
+  margin-right: 2rem;
+}
+
+.contacts a p {
+  font-size: 3.6rem;
+  opacity: 90%;
+}
+
+@media (max-width: 600px) {
+  .contactContainer{
+    padding: 5rem 10rem;
+  }
+
+  .contactContainer h1 {
+    text-align: center;
+  }
+
+}

@@ -1,0 +1,275 @@
+.yourIdea {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.mainContent {
+  padding-left: 40rem;
+  margin-bottom: 10rem;
+  width: 120rem;
+}
+
+.mainContent h1 {
+  font-size: 7.2rem;
+  margin-bottom: 4rem;
+}
+
+.mainContent p {
+  font-family: "Lora", serif;
+  opacity: 90%;
+  font-size: 3.6rem;
+  line-height: 5.4rem;
+}
+
+.yourIdea img {
+  animation: slide-girl 1.2s ease-out;
+  width: 40%;
+  align-self: flex-end;
+}
+
+.aboutMe {
+  padding: 20rem 0rem 20rem 40rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.aboutMe div {
+  width: 50%;
+}
+
+.aboutMe div h1 {
+  font-weight: 500;
+  margin-bottom: 8rem;
+}
+
+.aboutMe div p {
+  font-weight: 500;
+  opacity: 80%;
+  font-size: 3.6rem;
+}
+
+.button {
+  background: var(--purple);
+  border: none;
+  color: white;
+  height: 10rem;
+  width: 30rem;
+  margin-top: 6rem;
+  margin-left: 15rem;
+  border-radius: 2rem;
+  box-shadow: -2px 4px 2px 1px rgba(0, 0, 0, 0.05),
+    2px 4px 2px 1px rgba(0, 0, 0, 0.05);
+  font-weight: 500;
+  font-size: 3rem;
+  outline: none;
+}
+
+.button:focus {
+  color: var(--purple);
+  background-color: white;
+  border: 2px solid var(--purple);
+  box-shadow: none;
+}
+
+.button:hover {
+  filter: brightness(120%);
+}
+
+.aboutMe strong {
+  font-weight: medium;
+}
+
+.projectsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.projectsContainer > h2 {
+  margin: 8rem 0;
+}
+
+.projectsContainer > p {
+  font-size: 3.6rem;
+  margin-bottom: 7rem;
+  opacity: 90%;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectContainer {
+  height: 70rem;
+}
+
+.project {
+  display: absolute;
+  top: 4rem;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s all ease-in;
+}
+
+.project:hover {
+  padding: 4rem;
+  box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.05), -3px 3px 2px 2px rgba(0, 0, 0, 0.05);
+}
+
+.project img {
+  width: 70rem;
+}
+
+.project p {
+  margin-top: 2rem;
+  font-size: 2.9rem;
+  width: 70rem;
+  opacity: 85%;
+}
+
+.servicesContainer {
+  margin: 20rem 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem;
+}
+
+.servicesContainer > h2 {
+  margin: 8rem 0;
+  opacity: 90%;
+}
+
+.services {
+  width: 100%;
+  height: 80rem;
+  margin-bottom: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.services div {
+  padding: 2rem;
+  width: 48rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.2s all ease-in;
+}
+
+.services div:hover {
+  padding: 0rem;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.05), -2px 2px 1px rgba(0, 0, 0, 0.05);
+}
+
+.services div img {
+  width: 100%;
+}
+
+.services div p {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 2rem;
+  font-size: 2.8rem;
+}
+
+@media (min-width: 480px) {
+}
+
+@media (max-width: 600px) {
+  .yourIdea {
+    flex-direction: column;
+  }
+
+  .yourIdea img {
+    animation: none;
+  }
+
+  .mainContent {
+    padding: 5rem;
+    width: 70rem;
+    margin-bottom: 0;
+  }
+
+  .button {
+    margin: 5rem 0;
+  }
+
+  .yourIdea > img {
+    align-self: flex-start;
+    width: 100%;
+  }
+
+  .aboutMe {
+    padding: 10rem;
+    flex-wrap: wrap;
+  }
+
+  .aboutMe div {
+    width: 100%;
+  }
+
+  .aboutMe p {
+    width: 100%;
+  }
+
+  .projectContainer {
+    width: 90vw;
+  }
+
+  .project img {
+    width: 100%;
+  }
+
+  .project p {
+    width: 80%;
+  }
+
+  .projectsContainer,
+  .servicesContainer {
+    margin: 15rem 0;
+  }
+
+  .services {
+    height: auto;
+  }
+
+  .services div {
+    height: 80rem;
+    width: 80vw;
+    margin-bottom: 10rem;
+  }
+
+  .services div p {
+    padding: 2rem;
+    font-size: 2.8rem;
+  }
+}
+
+@keyframes slide-girl {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
